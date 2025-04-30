@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  article {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  article h2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  article h2 a:hover {
+    color: darkblue;
+  }
+  .producto {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .boton-afiliado {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .boton-afiliado:hover {
+    background-color: #005ac1;
+  }
+      

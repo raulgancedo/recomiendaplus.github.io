@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Blog de Recomendaciones</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #333;
+    }
+
+    header {
+      background: #1e40af;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav a {
+      color: #bbf7d0;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+      text-align: center;
+      color: #1e40af;
+    }
+
+    .producto {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      overflow: hidden;
+      margin: 2rem 0;
+      transition: transform 0.2s;
+    }
+
+    .producto:hover {
+      transform: scale(1.02);
+    }
+
+    .producto img {
+      width: 100%;
+      display: block;
+    }
+
+    .contenido {
+      padding: 1.5rem;
+    }
+
+    .contenido h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .contenido p {
+      color: #555;
+    }
+
+    .boton-afiliado {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 24px;
+      background-color: #1e40af;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #e5e7eb;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .contenido h3 {
+        font-size: 1.2rem;
+      }
+
+      .boton-afiliado {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mis Recomendaciones</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#">Sobre mí</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Productos que uso y recomiendo</h2>
+
+    <section class="producto">
+      <img src="https://via.placeholder.com/900x400" alt="Curso HTML">
+      <div class="contenido">
+        <h3>Curso HTML desde cero</h3>
+        <p>Un curso online completo para aprender HTML, ideal si estás empezando a crear páginas web como esta.</p>
+        <a class="boton-afiliado" href="https://tuenlaceafiliado.com/curso-html" target="_blank">Ver curso</a>
+      </div>
+    </section>
+
+    <section class="producto">
+      <img src="https://via.placeholder.com/900x400" alt="Hosting web">
+      <div class="contenido">
+        <h3>Hosting para tu página web</h3>
+        <p>Consigue un dominio y hosting profesional con soporte técnico 24/7. Ideal para bloggers y emprendedores.</p>
+        <a class="boton-afiliado" href="https://tuenlaceafiliado.com/hosting" target="_blank">Ir al hosting</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - TuNombre | Algunos enlaces son afiliados y podrían generar una comisión</p>
+  </footer>
+</body>
+</html>
+
+
